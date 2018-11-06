@@ -18,7 +18,7 @@ public class readandwrite {
 
             if (response.equals("Y")) {
                 try {
-                    String filename = "passwords.txt";
+                    String filename = "notes.txt";
                     FileWriter fw = new FileWriter(filename, true); //the true will append the new data
                     System.out.println("append to text:");
                     String append = userInput.nextLine();
